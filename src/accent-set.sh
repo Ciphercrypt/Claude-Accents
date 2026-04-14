@@ -19,27 +19,27 @@ key_from_number() {
   case "$1" in
     1)  echo "caveman" ;;
     2)  echo "yoda" ;;
-    3)  echo "pirate" ;;
-    4)  echo "shakespeare" ;;
-    5)  echo "genz" ;;
-    6)  echo "leetspeak" ;;
-    7)  echo "corporate" ;;
-    8)  echo "legalese" ;;
-    9)  echo "academic" ;;
-    10) echo "troll" ;;
-    11) echo "doge" ;;
-    12) echo "boomer" ;;
-    13) echo "reddit" ;;
-    14) echo "medieval" ;;
-    15) echo "terminal" ;;
-    16) echo "clickbait" ;;
-    17) echo "hemingway" ;;
-    18) echo "customer-service" ;;
-    19) echo "conspiracy" ;;
-    20) echo "trump" ;;
-    21) echo "british-butler" ;;
-    22) echo "gandalf" ;;
-    23) echo "modi" ;;
+    3)  echo "modi" ;;
+    4)  echo "pirate" ;;
+    5)  echo "shakespeare" ;;
+    6)  echo "genz" ;;
+    7)  echo "trump" ;;
+    8)  echo "leetspeak" ;;
+    9)  echo "corporate" ;;
+    10) echo "legalese" ;;
+    11) echo "academic" ;;
+    12) echo "troll" ;;
+    13) echo "doge" ;;
+    14) echo "boomer" ;;
+    15) echo "reddit" ;;
+    16) echo "medieval" ;;
+    17) echo "terminal" ;;
+    18) echo "clickbait" ;;
+    19) echo "hemingway" ;;
+    20) echo "customer-service" ;;
+    21) echo "conspiracy" ;;
+    22) echo "british-butler" ;;
+    23) echo "gandalf" ;;
     *)  echo "" ;;
   esac
 }

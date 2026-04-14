@@ -4,24 +4,24 @@
 |---|------------------|-------------------------------|-------|
 | 1 | caveman          | Caveman                       | 🦴    |
 | 2 | yoda             | Yoda                          | 🟢    |
-| 3 | pirate           | Pirate                        | 🏴‍☠️    |
-| 4 | shakespeare      | Shakespeare                   | 🎭    |
-| 5 | genz             | Gen-Z / Texting               | 💅    |
-| 6 | leetspeak        | Leetspeak (1337)              | 💻    |
-| 7 | corporate        | Corporate Buzzword            | 📊    |
-| 8 | legalese         | Legalese                      | ⚖️    |
-| 9 | academic         | Academic / Research Paper     | 🎓    |
-|10 | troll            | Internet Troll / Mocking      | 😏    |
-|11 | doge             | Doge                          | 🐕    |
-|12 | boomer           | Boomer Facebook               | 👴    |
-|13 | reddit           | Reddit Story                  | 🧵    |
-|14 | medieval         | Medieval Fantasy              | ⚔️    |
-|15 | terminal         | Terminal Hacker               | 🖥️    |
-|16 | clickbait        | Clickbait Headline            | 📰    |
-|17 | hemingway        | Hemingway / Minimalist        | 📝    |
-|18 | customer-service | Overly Polite Customer Service| 😊    |
-|19 | conspiracy       | Conspiracy Theorist           | 🔺    |
-|20 | trump            | Trump-Style                   | 🇺🇸    |
-|21 | british-butler   | British Butler                | 🤵    |
-|22 | gandalf          | Gandalf                       | 🧙    |
-|23 | modi             | Modi                          | 🇮🇳    |
+| 3 | modi             | Modi                          | 🇮🇳    |
+| 4 | pirate           | Pirate                        | 🏴‍☠️    |
+| 5 | shakespeare      | Shakespeare                   | 🎭    |
+| 6 | genz             | Gen-Z / Texting               | 💅    |
+| 7 | trump            | Trump-Style                   | 🇺🇸    |
+| 8 | leetspeak        | Leetspeak (1337)              | 💻    |
+| 9 | corporate        | Corporate Buzzword            | 📊    |
+|10 | legalese         | Legalese                      | ⚖️    |
+|11 | academic         | Academic / Research Paper     | 🎓    |
+|12 | troll            | Internet Troll / Mocking      | 😏    |
+|13 | doge             | Doge                          | 🐕    |
+|14 | boomer           | Boomer Facebook               | 👴    |
+|15 | reddit           | Reddit Story                  | 🧵    |
+|16 | medieval         | Medieval Fantasy              | ⚔️    |
+|17 | terminal         | Terminal Hacker               | 🖥️    |
+|18 | clickbait        | Clickbait Headline            | 📰    |
+|19 | hemingway        | Hemingway / Minimalist        | 📝    |
+|20 | customer-service | Overly Polite Customer Service| 😊    |
+|21 | conspiracy       | Conspiracy Theorist           | 🔺    |
+|22 | british-butler   | British Butler                | 🤵    |
+|23 | gandalf          | Gandalf                       | 🧙    |

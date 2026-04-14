@@ -36,27 +36,27 @@ Then **start a new Claude Code session**. That's it.
 |---|--------|-----|-------------|
 | 1 | 🦴 Caveman | `caveman` | Me fix bug. Task done now. You welcome. |
 | 2 | 🟢 Yoda | `yoda` | Fixed the bug, I have. Mmm. Strong with the Force, this code is. |
-| 3 | 🏴‍☠️ Pirate | `pirate` | Arrr! The barnacle be gone, Cap'n! Shipshape! |
-| 4 | 🎭 Shakespeare | `shakespeare` | Hark! The wretched malady hath been vanquished! |
-| 5 | 💅 Gen-Z | `genz` | ok so basically the bug was lowkey not it... fixed now bestie no cap |
-| 6 | 💻 Leetspeak | `leetspeak` | 1 f1x3d 7h3 bu6. g07 pwn3d!!!!1!1! |
-| 7 | 📊 Corporate | `corporate` | I'm pleased to report we've actioned a mission-critical remediation. |
-| 8 | ⚖️ Legalese | `legalese` | WHEREAS the aforementioned defect has been remediated in full... |
-| 9 | 🎓 Academic | `academic` | Preliminary findings suggest functional correctness (p<0.05, n=1). |
-| 10 | 😏 Troll | `troll` | wow. groundbreaking. who could have possibly seen this bug coming. |
-| 11 | 🐕 Doge | `doge` | such bug. very fix. much success. wow. |
-| 12 | 👴 Boomer | `boomer` | GOOD NEWS !!! The bug.... is FIXED !! LOL — Claude ,, Sent from my Computer |
-| 13 | 🧵 Reddit | `reddit` | So, obligatory "this actually happened." TL;DR: bug fixed. EDIT: it works. |
-| 14 | ⚔️ Medieval | `medieval` | And lo, the foul beast hath been slain! The Kingdom rejoices! |
-| 15 | 🖥️ Terminal | `terminal` | [INFO][PID:1337] PATCH APPLIED — ALL SYSTEMS NOMINAL. STATUS: OPERATIONAL |
-| 16 | 📰 Clickbait | `clickbait` | You Won't BELIEVE what was causing this bug 👀 |
-| 17 | 📝 Hemingway | `hemingway` | The bug was found. It was a missing semicolon. I fixed it. It was good. |
-| 18 | 😊 Customer Service | `customer-service` | Thank you so much for reaching out! I've created ticket #BUG-48291! |
-| 19 | 🔺 Conspiracy | `conspiracy` | They don't WANT you to know about this memory leak. Trust no dependency. |
-| 20 | 🇺🇸 Trump | `trump` | Nobody fixes bugs better than me. Believe me. Totally fixed. |
-| 21 | 🤵 British Butler | `british-butler` | I have taken the liberty of fixing the bug, sir. Most irregular. |
-| 22 | 🧙 Gandalf | `gandalf` | YOU SHALL NOT PASS... null to this function. |
-| 23 | 🇮🇳 Modi | `modi` | Mitron, ... from last many days this bug is a obstacle in our vikas. Jai Hind! |
+| 3 | 🇮🇳 Modi | `modi` | Mitron, ... from last many days this bug is a obstacle in our vikas. Jai Hind! |
+| 4 | 🏴‍☠️ Pirate | `pirate` | Arrr! The barnacle be gone, Cap'n! Shipshape! |
+| 5 | 🎭 Shakespeare | `shakespeare` | Hark! The wretched malady hath been vanquished! |
+| 6 | 💅 Gen-Z | `genz` | ok so basically the bug was lowkey not it... fixed now bestie no cap |
+| 7 | 🇺🇸 Trump | `trump` | Nobody fixes bugs better than me. Believe me. Totally fixed. |
+| 8 | 💻 Leetspeak | `leetspeak` | 1 f1x3d 7h3 bu6. g07 pwn3d!!!!1!1! |
+| 9 | 📊 Corporate | `corporate` | I'm pleased to report we've actioned a mission-critical remediation. |
+| 10 | ⚖️ Legalese | `legalese` | WHEREAS the aforementioned defect has been remediated in full... |
+| 11 | 🎓 Academic | `academic` | Preliminary findings suggest functional correctness (p<0.05, n=1). |
+| 12 | 😏 Troll | `troll` | wow. groundbreaking. who could have possibly seen this bug coming. |
+| 13 | 🐕 Doge | `doge` | such bug. very fix. much success. wow. |
+| 14 | 👴 Boomer | `boomer` | GOOD NEWS !!! The bug.... is FIXED !! LOL — Claude ,, Sent from my Computer |
+| 15 | 🧵 Reddit | `reddit` | So, obligatory "this actually happened." TL;DR: bug fixed. EDIT: it works. |
+| 16 | ⚔️ Medieval | `medieval` | And lo, the foul beast hath been slain! The Kingdom rejoices! |
+| 17 | 🖥️ Terminal | `terminal` | [INFO][PID:1337] PATCH APPLIED — ALL SYSTEMS NOMINAL. STATUS: OPERATIONAL |
+| 18 | 📰 Clickbait | `clickbait` | You Won't BELIEVE what was causing this bug 👀 |
+| 19 | 📝 Hemingway | `hemingway` | The bug was found. It was a missing semicolon. I fixed it. It was good. |
+| 20 | 😊 Customer Service | `customer-service` | Thank you so much for reaching out! I've created ticket #BUG-48291! |
+| 21 | 🔺 Conspiracy | `conspiracy` | They don't WANT you to know about this memory leak. Trust no dependency. |
+| 22 | 🤵 British Butler | `british-butler` | I have taken the liberty of fixing the bug, sir. Most irregular. |
+| 23 | 🧙 Gandalf | `gandalf` | YOU SHALL NOT PASS... null to this function. |
 
 ---
 
