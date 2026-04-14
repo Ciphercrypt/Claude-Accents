@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
-# cc-accents: UserPromptSubmit hook
 
 STATE_FILE="$HOME/.claude/.accent-state"
 ACCENTS_DIR="$HOME/.claude/skills/accent/accents"
@@ -19,11 +18,11 @@ else
   RULES="Respond in a $ACCENT accent/style."
 fi
 
-# Escape for JSON — wraps content in quotes
-RULES_ESCAPED=$(printf '%s' "$RULES" | python3 -c 'import sys,json; print(json.dumps(sys.stdin.read()))' 2>/dev/null)
+# Strip outer quotes from json.dumps so content can be embedded inside a JSON string
+RULES_ESCAPED=$(printf '%s' "$RULES" | python3 -c 'import sys,json; s=sys.stdin.read(); print(json.dumps(s)[1:-1])' 2>/dev/null)
 
 if [ -z "$RULES_ESCAPED" ]; then
-  RULES_ESCAPED="\"Respond in a $ACCENT accent/style for ALL responses. Maintain full technical accuracy. Never apply accent to code blocks.\""
+  RULES_ESCAPED="Respond in a $ACCENT accent\/style for ALL responses. Maintain full technical accuracy. Never apply accent to code blocks."
 fi
 
 cat <<EOF
