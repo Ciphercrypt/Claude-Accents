@@ -46,20 +46,32 @@ else
 fi
 echo -e "${GREEN}  ✓ Prerequisites OK (using $JSON_TOOL for JSON)${NC}"
 
-# ── Step 2: Determine source directory ─────────
+# ── Step 2: Locate or download source files ────
 echo -e "${YELLOW}[2/6]${NC} Locating source files..."
 
-SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+REPO_URL="https://github.com/Ciphercrypt/Claude-Accents/archive/refs/heads/main.tar.gz"
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]:-install.sh}")" 2>/dev/null && pwd)" || SCRIPT_DIR=""
+TMP_DIR=""
 
 if [ -f "$SCRIPT_DIR/src/SKILL.md" ]; then
   SRC_DIR="$SCRIPT_DIR/src"
-elif [ -f "$SCRIPT_DIR/SKILL.md" ]; then
-  SRC_DIR="$SCRIPT_DIR"
+  echo -e "${GREEN}  ✓ Local source files found at $SRC_DIR${NC}"
 else
-  echo -e "${RED}✗ Cannot find source files. Run from the cc-accents directory.${NC}"
-  exit 1
+  echo -e "${YELLOW}  Downloading from GitHub...${NC}"
+  if ! command -v curl &> /dev/null && ! command -v wget &> /dev/null; then
+    echo -e "${RED}✗ Need curl or wget to download files${NC}"
+    exit 1
+  fi
+  TMP_DIR=$(mktemp -d)
+  trap 'rm -rf "$TMP_DIR"' EXIT
+  if command -v curl &> /dev/null; then
+    curl -sL "$REPO_URL" | tar -xz -C "$TMP_DIR" --strip-components=1
+  else
+    wget -qO- "$REPO_URL" | tar -xz -C "$TMP_DIR" --strip-components=1
+  fi
+  SRC_DIR="$TMP_DIR/src"
+  echo -e "${GREEN}  ✓ Downloaded source files${NC}"
 fi
-echo -e "${GREEN}  ✓ Source files found at $SRC_DIR${NC}"
 
 # ── Step 3: Create directory structure ─────────
 echo -e "${YELLOW}[3/6]${NC} Creating directory structure..."
